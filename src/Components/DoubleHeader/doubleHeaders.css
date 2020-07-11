@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+.doubleHeader{
+    width: 100%;
+    border-bottom: 1px solid #b4b4b4;
+    overflow: auto;
+}
+
+.doubleHeader h2{
+    font-family: 'roboto', sans-serif;
+    font-size: 22px; 
+    color:#404040;
+    font-weight: 300;
+}
+
+.doubleHeader p{
+    font-family: 'roboto', sans-serif;
+    font-size: 13px; 
+    color:#9a9a9a;
+    font-weight: 400;
+}

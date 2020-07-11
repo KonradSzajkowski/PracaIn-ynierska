@@ -1,0 +1,16 @@
+#mainContainer td{
+    text-align: center;
+    vertical-align: middle;
+}
+#mainContainer th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tab{
+    overflow:scroll;
+}
+#mainContainer .fa-trash:hover{
+    cursor: pointer;
+    color:#cc214c;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin-ext');
+
+
+.standardButton{
+    margin: 10px 0px 30px 0px;
+
+    padding: 8px 16px;
+    cursor: pointer;
+    outline:none;
+    width: 33%;
+    border-radius:4px;
+    background: #1dc7ea;
+    color:white;
+    border-color: #46b8da;
+    background: rgba(FF,45,00,.50); 
+    border: 1px solid #3d3d3d; 
+    border: 1px solid rgba(255,255,255,.15);
+   font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    float:right;
+}
+
+.standardButton:hover{
+    background-color:#5cc1e9 ;
+}
+
+.secondButton{
+    margin: 10px 10px 30px 0px;
+
+    padding: 8px 16px;
+    cursor: pointer;
+    outline:none;
+    width: 33%;
+    border-radius:4px;
+    background: #aaaaaa;
+    color:white;
+    border-color: #999999;
+    background: rgba(FF,45,00,.50); 
+    border: 1px solid #3d3d3d; 
+    border: 1px solid rgba(255,255,255,.15);
+   font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    float:right;
+}
+
+.secondButton:hover{
+    background-color:#a1a1a1 ;
+}

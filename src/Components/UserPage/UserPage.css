@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin-ext');
+
+#userPageContainer{
+    background-image: url('../../img/mb.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+  }
+
+  #userPanel{
+    background-color: rgba(247,247,248); 
+    width: 94%;
+    height: 94%;
+    position:fixed;
+    top:3%;
+    left:3%;
+    border-radius:20px;
+    resize: none;
+  }
+
+  #topBar{
+    background-color: rgba(255,255,255); 
+    border-radius:20px 20px 0px 0px;
+    width: 100%;
+    height: 51px;
+    border-bottom: 1px solid #b4b4b4;
+  }
+
+  #topBar p{
+    color:#9a9a9a;
+    font-family: 'roboto', sans-serif;
+    padding: 6px;
+    margin:6px 20px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+  }
+
+  #topBar h2{
+    color:#343434;
+    font-family: 'roboto', sans-serif;
+    padding: 6px;
+    margin:5px 20px;
+    float: left;
+    font-size: 20px;
+  }
+
+  #topBar p:hover{
+    color:#1dc7ea
+  }
+
+  .userSumary{
+    padding: 6px;
+    background-color: rgba(255,255,255); 
+    margin:20px 10px;
+    border: 1px solid #b4b4b4;
+    overflow: auto;
+  }
+
+  .userSumaryName{
+    font-family: 'roboto', sans-serif;
+    float:right;
+    font-size: 16px;
+    margin: 0px;
+    color: #474747;
+  }
+
+  .userSumaryNumber{
+    font-family: 'roboto', sans-serif;
+    float:right;
+    font-size: 38px;
+    margin: 0px;
+    color: #090909;
+  }
+
+  .clear{
+    clear: both;
+    height: 0px;
+  }
+
+  .rightText{
+    float:right;
+  }
+
+  #userCompanys{
+    padding: 6px;
+    background-color: rgba(255,255,255); 
+    margin:20px 10px;
+    border: 1px solid #b4b4b4;
+    min-height: 200px;
+    overflow-y: auto;
+  }
+
+  #userTasks{
+    padding: 6px;
+    background-color: rgba(255,255,255); 
+    margin:20px 10px;
+    border: 1px solid #b4b4b4;
+    min-height: 200px;
+    height: calc(100% - 40px);
+  }
+
+  #Invitations{
+    padding: 6px;
+    background-color: rgba(255,255,255); 
+    margin:20px 10px;
+    border: 1px solid #b4b4b4;
+    min-height: 200px;
+    height: calc(100% - 40px);
+  }
+
+  #SentInvitations{
+    padding: 6px;
+    background-color: rgba(255,255,255); 
+    margin:20px 10px;
+    border: 1px solid #b4b4b4;
+    min-height: 200px;
+    height: calc(100% - 40px);
+  }
+
+  .container-fluid{
+    overflow-y: auto;
+    height: calc(100% - 71px);
+    scrollbar-width: 10px;
+    
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

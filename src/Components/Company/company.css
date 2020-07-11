@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=latin-ext');
+
+.Company{
+    width: 100%;
+    border-bottom: 1px solid #b4b4b4;
+    clear: both;
+    padding: 10px;
+    overflow:auto;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.Company p{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    color:#333;
+    overflow-wrap: break-word;
+    margin-bottom: 0px;
+    float:right;
+    width: calc(100% - 60px);
+}
+
+.Company h6{
+    float:left;
+    font-weight: 500;
+}
+
+.Company .clear {
+    clear: both;
+}
+

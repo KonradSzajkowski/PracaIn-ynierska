@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=latin-ext');
+
+.SentInvitation{
+    width: 100%;
+    border-bottom: 1px solid #b4b4b4;
+    clear: both;
+    padding: 10px;
+    overflow:auto;
+    font-family: 'roboto', sans-serif;
+}
+
+
+
+
+.SentInvitation p{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    color:#333;
+    margin-bottom: 0px;
+    float:right;
+    width:calc(100% - 100px);
+}
+.SentInvitation h6{
+    float:left;
+    font-weight: 500;
+}
+
+.SentInvitation .icons{
+    float:right;
+}
+
+.SentInvitation .svg-inline--fa {
+    margin: 3px;
+}
+
+.SentInvitation .fa-trash:hover{
+    cursor: pointer;
+    color:#cc214c;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+.SentInvitationInfo .clear {
+    clear: both;
+}
+

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&display=swap&subset=latin-ext');
+
+.Task{
+    width: 100%;
+    border-bottom: 1px solid #b4b4b4;
+    clear: both;
+    padding: 10px;
+    overflow:auto;
+}
+.Task input[type=checkbox]{
+    margin:5px;
+    float:left;
+ 
+}
+
+.Task p{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    color:#333;
+    overflow-wrap: break-word;
+    float :left;
+    margin-bottom: 0px;
+    width: calc(100% - 75px);
+}
+
+.Task input[type=checkbox]:checked ~p{
+    text-decoration: line-through;
+    font-style: italic;
+    color:#9b9b9b;
+}
+
+
+.Task .icons{
+    float:right;
+}
+
+.Task .svg-inline--fa {
+    margin: 3px;
+}
+
+.Task .fa-trash:hover{
+    cursor: pointer;
+    color:#cc214c;
+}
+
+.Task .fa-edit:hover{
+    cursor: pointer;
+    color:#1079cf;
+}
+
+
+

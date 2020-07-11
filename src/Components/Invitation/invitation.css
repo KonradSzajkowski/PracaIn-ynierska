@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&display=swap&subset=latin-ext');
+
+.Invitation{
+    width: 100%;
+    border-bottom: 1px solid #b4b4b4;
+    clear: both;
+    padding: 10px;
+    overflow:auto;
+}
+
+.Invitation p{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    color:#333;
+    float :left;
+    margin-bottom: 0px;
+    float:left;
+    width: calc(100% - 60px);
+    
+}
+
+.Invitation .icons{
+    float:right;
+}
+
+.Invitation .svg-inline--fa {
+    margin: 3px;
+}
+
+.Invitation .fa-times:hover{
+    cursor: pointer;
+    color:#cc214c;
+}
+
+.Invitation .fa-check:hover{
+    cursor: pointer;
+    color:#64ca4a;
+}

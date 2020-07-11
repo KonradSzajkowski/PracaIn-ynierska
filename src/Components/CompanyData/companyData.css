@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=latin-ext');
+
+#CompanyData{
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    overflow:auto;
+    font-family: 'Roboto', sans-serif;
+    padding: 4% ;
+    margin-right:10%;
+}
+
+#CompanyData p {
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    color:#333;
+    margin-bottom: 0px;
+    width: calc(100% - 60px);
+    overflow-wrap: break-word;
+}
+
+#CompanyData h2 {
+    font-size: 35px;
+}
+#CompanyData h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#CompanyData #padd{
+    padding: 1%;
+    border: 1px solid #b4b4b4;
+    overflow: auto;
+}
+
+#CompanyData .clear {
+    clear: both;
+}
+
